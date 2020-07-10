@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "392999106802",
+    "firebase_url": "https://projetothamirisss.firebaseio.com",
+    "project_id": "projetothamirisss",
+    "storage_bucket": "projetothamirisss.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392999106802:android:3301091f76632b4b73f86b",
+        "android_client_info": {
+          "package_name": "com.example.projeto_plotze"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392999106802-q9q5q3k33nqvti3tbu21gh6qtjgutqv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL5U-DZBpMNB70GJLSByqZ3mGx8Jk7x1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392999106802-q9q5q3k33nqvti3tbu21gh6qtjgutqv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
