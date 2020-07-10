@@ -430,7 +430,6 @@ void doLogin(BuildContext context) async{
       .signInWithEmailAndPassword(email: _email.text, password: _senha.text);
       print("E-mail:"+result.user.email);  
       print("Signed in:"+result.user.uid);  
-      //Navigator.pushNamed(context, "/principal", arguments: null);
       Navigator.push(context, MaterialPageRoute(builder:  (context) => MyHomePage()));     
     }catch(erro){
       print(erro.message);

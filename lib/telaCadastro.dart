@@ -75,12 +75,10 @@ class _TelaCadastroState extends State<TelaCadastro> {
                         style: TextStyle(color: Colors.white, fontSize: 20)),
                     onPressed: () {
                       if (idDocumento == null) {
-                        print("--------------- null");
                         inserir(context, 
                           Item(idDocumento, txtNome.text,
                                 double.parse(txtQuantidade.text)));
                       } else {
-                        print("--------------- not null");
                         atualizar(context,
                             Item(idDocumento, txtNome.text,
                                 double.parse(txtQuantidade.text)));
